@@ -7,12 +7,12 @@ package br.com.bossini._usjt_psc_segunda_crud_pessoas;
 import java.sql.Connection;
 import java.sql.DriverManager;
 public class ConnectionFactory {
-    private final String host = "localhost";
-    private final String port = "3306";
-    private final String user = "root";
+    private final String host = "mysql-1cca12f3-professorbossini.aivencloud.com";
+    private final String port = "12956";
+    private final String user = "avnadmin";
     //maquinas da USJT: senha anima123
-    private final String password = "1234567";
-    private final String db = "20232_usjt_psc_segunda_pessoas";
+    private final String password = "AVNS_h-cVcxIAyJM2BdDOAnv";
+    private final String db = "defaultdb";
     
     public Connection conectar() throws Exception {
         //http://dontpad.com:80/bossini
