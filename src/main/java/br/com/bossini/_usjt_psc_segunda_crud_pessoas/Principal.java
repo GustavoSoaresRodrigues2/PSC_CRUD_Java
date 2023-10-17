@@ -27,6 +27,7 @@ public class Principal {
                     var pessoaDAO = new PessoaDAO();
                     pessoaDAO.cadastrar(pessoa);
                     break;
+                    
             }
         }while(op != 0);
     }
